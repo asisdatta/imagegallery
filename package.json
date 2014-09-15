@@ -1,0 +1,23 @@
+{
+  "name": "image-gallery",
+  "version": "0.0.1",
+  "author": "Innofied Solution Pvt. Ltd.",
+  "subdomain": "",
+  "scripts": {
+    "start": "app.js",
+    "test": "NODE_ENV=mocha ./node_modules/.bin/mocha --reporter spec -t 80000 -s 500"
+  },
+  "engines": {
+    "node": "0.10.X"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "body-parser": "^1.8.1",
+    "connect-busboy": "0.0.1",
+    "express": "*",
+    "formidable": "^1.0.15",
+    "mongoose": "*",
+    "multipart": "*",
+    "q": "^1.0.1"
+  }
+}
